@@ -1,13 +1,10 @@
 board = [' ' for x in range(10)]
 
-
 def insertletter(letter, pos):
     board[pos] = letter
 
-
 def spaceIsFree(pos):
     return board[pos] == ' '
-
 
 def printboard(board):
     print('    |   |    ')
