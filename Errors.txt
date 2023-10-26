@@ -1,0 +1,10 @@
+TYPES OF ERROR:
+
+1. Syntax ERROR
+2. Indentation ERROR
+3. Type ERROR ---- Str and Int of diff type. like, 3+ "d".
+4. Name ERROR -- as 'a' is not defined.
+5. Zero Division ERROR
+6. Index ERROR ---in list or string if it is out of bound.
+7. Runtime ERROR---
+8. Attribute ERROR-- diff method for dif data type...like, using title attribute for integer wont work.
