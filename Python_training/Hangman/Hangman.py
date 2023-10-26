@@ -1,6 +1,5 @@
 import random
 
-
 def hangman():
     word = random.choice(["pug", "pokemon", "avenger", "himanshu", "earth"])
     validletters = 'abcdefghijklmnopqrstuvwxyz'
