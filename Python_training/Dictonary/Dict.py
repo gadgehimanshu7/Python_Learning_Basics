@@ -3,7 +3,6 @@ import difflib
 
 data = json.load(open("data.json"))
 
-
 # print (data["smog"])
 
 # x="y"
