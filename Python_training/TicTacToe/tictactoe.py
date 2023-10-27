@@ -130,15 +130,20 @@ def main():
             print('you win')
             break
 
+
     if isBoardfull(board):
         print("tie game")
 
+
+
+
 while True:
-    x = input('Do u want to play again? (y/n)')
+    x = input('Shall we begin with the game? (y/n)')
     if x.lower() == 'y':
         board = [' ' for x in range(10)]
         print('-----------------------------')
         main()
+        x = input('Do u want to play the game again? (y/n)')
     else:
         break
 
